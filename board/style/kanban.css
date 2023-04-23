@@ -1,0 +1,29 @@
+.kanban {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* .kanban__item {
+  background-color: yellow;
+  margin: 10px;
+} */
+
+.kanban__columns{
+  margin: 5px;
+  display: flex;
+  max-width: 95%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.kanban__btn {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+}

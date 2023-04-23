@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Kanban board</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/item.css">
+  <link rel="stylesheet" href="./style/column.css">
+  <link rel="stylesheet" href="./style/popup.css">
+  <link rel="stylesheet" href="./style/kanban.css">
+  <link rel="stylesheet" href="./style/fonts.css">
+</head>
+<body>
+  <main class = 'main'>
+    <div class = 'container'>
+      <div class = 'kanban'>
+        <div class = 'kanban__columns'>
+          <div class = 'column'>
+            <div class = 'column__head'>Сделать</div>
+            <div class = 'column__body'>
+              <div class = 'item' draggable="true">
+                <div class = 'item__head'>Заголовок задачи</div>
+                <div class = 'item__body'>Пояснения</div>
+              </div>
+            </div>
+          </div>
+          <div class = 'column'>
+            <div class = 'column__head'>В работе</div>
+            <div class = 'column__body'>
+              </div>
+            </div>
+            <div class = 'column'>
+            <div class = 'column__head'>Сделано</div>
+            <div class = 'column__body'>
+            </div>
+          </div>
+        </div>
+        <button class = 'kanban__btn'>+</button>
+      </div>
+
+      <form class = 'popup'>
+        <div class = 'popup__elements'>
+          <div class="title">
+            <input type="text" name="title">
+            <label class="title">Заголовок</label>
+          </div>
+          <div class = 'description'>
+            <textarea class="area"></textarea>
+            <label class= "description">Описние</label>
+          </div>
+          <div class="color">
+            <select name="select" id = "color">
+              <option value="#30d5c8" selected>Бирюзовый</option>
+              <option value="#FFCF40">Желтый</option>
+              <option value="#89CFF0">Голубой</option>
+              <option value="#c45824">Терракотта</option>
+              <option value="#f4a460">Песочный</option>
+            </select>
+            <label class="color">Цвет</label>
+          </div>
+          <div class = "control">
+            <button class = "btn control__add">Добавить</button>
+            <button class = "btn control__close">Закрыть</button>
+            <button class = "btn control__remove">Удалить</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
+<script type="module" src="./src/index.js"></script>
+</body>
+</html>
