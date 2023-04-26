@@ -47,17 +47,9 @@ export function changeTitle(elem) {
   elem.addEventListener("click", () => {
     let input = document.createElement("input");
 
+    input.classList.add("input__title");
     input.value = elem.textContent;
-    input.style.width = "296px";
-    input.style.height = "20px";
-    input.style.fontFamily = "Roboto";
-    input.style.fontSize = "16px";
-    input.style.marginBottom = "10px";
-    input.style.background = "#db79d6";
-    input.style.border ="none;"
-    input.style.borderRadius = "7px";
-    input.style.outline = "none";
-    input.style.padding = "0px";
+
     elem.style.display = "none";
     elem.parentNode.insertBefore(input, elem);
 
