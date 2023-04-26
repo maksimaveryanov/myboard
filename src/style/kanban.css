@@ -7,11 +7,6 @@
   align-items: center;
 }
 
-/* .kanban__item {
-  background-color: yellow;
-  margin: 10px;
-} */
-
 .kanban__columns{
   margin: 5px;
   display: flex;

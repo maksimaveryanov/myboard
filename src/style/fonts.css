@@ -2,33 +2,33 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src:url(../fonts/Roboto/Roboto-Regular.ttf);
+  src:url(../fonts/Roboto/Roboto-Regular.woff2);
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src:url(../fonts/Roboto/Roboto-Regular.ttf);
+  src:url(../fonts/Roboto/Roboto-Regular.woff2);
 }
 
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src:url(../fonts/Roboto/Roboto-Bold.ttf);
+  src:url(../fonts/Roboto/Roboto-Bold.woff2);
 }
 
 @font-face {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;
-  src:url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf)
+  src:url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.woff2)
 }
 
 @font-face {
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 400;
-  src:url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf)
+  src:url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.woff2)
 }
